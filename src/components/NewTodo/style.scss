@@ -1,0 +1,26 @@
+.rs-form:not(.rs-form-inline) .rs-form-group:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.rs-btn-primary {
+  background-color: #5d5c61;
+
+  &:hover {
+    background-color: #b1a296;
+  }
+}
+
+.rs-input {
+  background-color: #7395ae;
+  border-color: #05386b;
+  color: #05386b;
+
+  &:focus,
+  &:hover {
+    border-color: #05386b;
+  }
+}
+
+.rs-form-control-label {
+  font-size: 18px;
+}

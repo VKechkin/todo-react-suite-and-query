@@ -1,0 +1,23 @@
+footer {
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    color: #edf5e1;
+    font-size: 14px;
+    margin: 10px 40px;
+    gap: 5px;
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #edf5e1;
+    }
+  }
+}
